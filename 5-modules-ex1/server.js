@@ -5,7 +5,11 @@ console.log(operations.var2);
 
 // Importa a função de 'funcoes.js' e a executa passando o argumento 2
 const funcoes = require("./funcoes");
+<<<<<<< HEAD
 const result = funcoes(1);
+=======
+const result = funcoes(2);
+>>>>>>> d1b2ad5dd8e51e794a79ef464ae3e4e85fbc8358
 console.log(result.msg);
 console.log(result.value);
 
